@@ -80,6 +80,6 @@ def find_shortest_path(G: nx.Graph, source: int, target: int):
 
 def visualize_graph(G: nx.Graph):
     plt.figure(figsize=(5, 5))  # Ukuran plot
-    pos = nx.spring_layout(G)  # Posisi node otomatis
+    pos = nx.spring_layout(G)  # Posisi node otomati
     nx.draw(G, pos, with_labels=True, node_color='lightblue', edge_color='gray', node_size=2000, font_size=15)
     plt.show()
